@@ -4,6 +4,7 @@ title = "Tim's R Notes"
 baseurl = "/"
 author = "Tim Sallay"
 paginate = 10
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
   post = "/post/:year/:month/:day/"
