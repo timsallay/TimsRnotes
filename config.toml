@@ -1,4 +1,17 @@
 theme = "hugo-lithium-theme"
-baseURL = "/"
 languageCode = "en-us"
 title = "Tim's R Notes"
+baseurl = "/"
+author = "Tim Sallay"
+paginate = 10
+
+[permalinks]
+  post = "/post/:year/:month/:day/"
+
+[params]
+  sitename = "Tim's R Notes"
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
