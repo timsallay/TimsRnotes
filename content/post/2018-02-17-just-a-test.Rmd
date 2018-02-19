@@ -1,0 +1,18 @@
+---
+title: Just a test
+author: tim sallay
+date: '2018-02-17'
+slug: just-a-test
+categories: []
+tags: []
+---
+
+Just a basic table
+```{r}
+iris[1:10,]
+```
+Just a basic DataTable
+```{r}
+library(DT)
+datatable(iris, options = list(pageLength = 5))
+```
