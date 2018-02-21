@@ -1,4 +1,4 @@
-theme = "hugo-lithium-theme"
+theme = "hugo-black-and-light-theme"
 languageCode = "en-us"
 title = "Tim's R Notes"
 baseurl = "/"
